@@ -281,7 +281,7 @@ Up until now we have been focused on queries that scan only one table, the LINEO
    </copy>    
    ````
 
-   ![](images/num1.png)
+
 
 11. Join the LINEORDER and DATE_DIM tables in a "What If" style query that calculates the amount of revenue increase that would have resulted from eliminating certain company-wide discounts in a given percentage range for products shipped on a given day (Christmas eve 1996).  In the first one, execute it against the IM column store.  
 
@@ -307,7 +307,7 @@ Up until now we have been focused on queries that scan only one table, the LINEO
    </copy>
 ````
 
-   ![](images/num2.png)
+
 
    The IM column store has no problem executing a query with a join because it is able to take advantage of Bloom Filters.  It’s easy to identify Bloom filters in the execution plan. They will appear in two places, at creation time and again when it is applied. The Bloon filter plans start with <b> :BF00X </b> plan above. You can also see what join condition was used to build the Bloom filter by looking at the predicate information under the plan.
 
@@ -337,7 +337,7 @@ Up until now we have been focused on queries that scan only one table, the LINEO
    </copy>
    ````
 
-   ![](images/num3.png)
+
 
 13. Let’s try a more complex query that encompasses three joins and an aggregation to our query. This time our query will compare the revenue for different product classes, from suppliers in a certain region for the year 1997. This query returns more data than the others we have looked at so far so we will use parallel execution to speed up the elapsed times so we don’t need to wait too long for the results.  
 
