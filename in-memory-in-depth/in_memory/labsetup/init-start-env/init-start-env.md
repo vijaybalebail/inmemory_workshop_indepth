@@ -32,7 +32,7 @@ For ease of execution of this workshop, your *dbseclab* VM instance has been pre
 2. Copy/Paste the Password below to login
 
     ```
-    <copy>LiveLabs.Rocks_99</copy>
+    <copy>IMworkshop2021#</copy>
     ```
 
     ![](./images/novnc-login-2.png " ")
@@ -40,25 +40,6 @@ For ease of execution of this workshop, your *dbseclab* VM instance has been pre
 3. Click on the *Firefox* browser icon from the remote desktop to launch it
 
     ![](./images/novnc-landing.png " ")
-
-4. Click on any of first 3 bookmarks to confirm that *dbseclab* VM which is common to all labs has fully initialized.
-
-    ![](./images/novnc-bookmarks-1.png " ")
-
-5. If all 3 bookmarks are accessible, then your environment is now ready, you may proceed with your labs.
-
-    ![](./images/novnc-bookmarks-2.png " ")
-
-    *Note:* Full initialization can take up to 10 minutes (with 4 oCPUs). Below are the details on all links from *dbseclab* VM that should be accessible
-
-    - **Oracle EM 13c**      : `https://<YOUR_DBSECLAB-VM_PUBLIC-IP>:7803/em`
-    - **My HR Application** on Glassfish:
-      - PDB1
-        - Prod        : `http://<YOUR_DBSECLAB-VM_PUBLIC-IP>:8080/hr_prod_pdb1`
-        - Dev         : `http://<YOUR_DBSECLAB-VM_PUBLIC-IP>:8080/hr_dev_pdb1`   (bg: red)
-      - PDB2
-        - Prod        : `http://<YOUR_DBSECLAB-VM_PUBLIC-IP>:8080/hr_prod_pdb2`  (menu: red)
-        - Dev         : `http://<YOUR_DBSECLAB-VM_PUBLIC-IP>:8080/hr_dev_pdb2`   (bg: red & menu: red)
 
 ## **STEP 2:** Enable Copy/Paste from Local to Remote Desktop (noVNC clipboard)
 During the execution of your labs you may need to copy text from your local PC/Mac to the remote desktop, such as commands from the lab guide. While such direct copy/paste isn't supported as you will realize, you may proceed as indicated below to enable an alternative local-to-remote clipboard with Input Text Field.
