@@ -112,9 +112,9 @@ Refer to *Lab Environment Setup* for detailed instructions relevant to your SSH 
 
     *Note:* All screenshots for SSH terminal type tasks featured throughout this workshop were captured using the *MobaXterm* SSH Client as described in this step. As a result when executing such tasks from within the graphical remote desktop session you can skip steps requiring you to login as user *oracle* using *sudo su - oracle*, the reason being that the remote desktop session is under user *oracle*.
 
-    You may now [proceed to the next lab](#next).
+    You may now [proceed to the next lab](#next).  Blalalalalal
 
 ## Acknowledgements
-- **Author** - Rene Fontcha, LiveLabs Platform Lead, NA Technology
+- **Author** - Vijay Balebail, Robert Pastijn
 - **Contributors** - Hakim Loumi
-* **Last Updated By/Date** - Rene Fontcha, LiveLabs Platform Lead, NA Technology, May 2021
+* **Last Updated By/Date** - Rajeev Rumale.
